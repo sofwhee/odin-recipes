@@ -1,13 +1,18 @@
 #odin-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 174, 53);
 
     /* black shadow on left, top, right, bot, to simulate border */
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-shadow: -1px 0 rgb(143, 104, 45), 0 1px rgb(143, 104, 45), 1px 0 rgb(143, 104, 45), 0 -1px rgb(143, 104, 45);
 }
 
 .recipe {
-    font-size: 36px;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+li {
+    background-color: rgb(255, 196, 107);
 }
 
